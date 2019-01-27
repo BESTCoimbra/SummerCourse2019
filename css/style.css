@@ -6,12 +6,34 @@
 --*/
 
 /*adaptations JVL */
-img [src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
-	display none;
+.img [src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+	display: none;
 }
 .text-img {
 	text-shadow: -1px -1px 1px #666, 1px -1px 1px #666, -1px 1px 1px #666, 1px 1px 1px #666;
 }
+.LBGsummercourse2019 section {
+  position: relative;
+  border-top: 8px solid #F4D220;
+  width: 50%;
+}
+.LBGsummercourse2019-title {
+  line-height: 0.7;
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+.LBGsummercourse2019-title best {
+  display:inline-block;
+  background-color: #F4D220;  
+}
+.LBGsummercourse2019-img {
+  top: -24px;
+  margin-left: -56%;
+  position: absolute;
+}
+
+/*end JVL*/
 
 .btn {
   background-color: DodgerBlue;
@@ -28,7 +50,6 @@ img [src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webho
 }
 
 
-/*end JVL*/
 
 /*-- Reset-Code --*/
 
@@ -64,9 +85,9 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	font-family: 'Roboto Mono'; /*by JVL*/
 }
-img{
+/*img{
     width: 100%;
-}
+}*/
 p {
     line-height: 1.8;
     font-size: 15px;
